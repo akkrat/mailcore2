@@ -7,12 +7,12 @@ sudo apt-get install libctemplate-dev libicu-dev libsasl2-dev libtidy-dev \
     uuid-dev libxml2-dev libglib2.0-dev autoconf automake libtool
 ```
 
-- Grab and compile the latest of libetpan: https://github.com/dinhviethoa/libetpan
+- Grab and compile the latest of libetpan: https://github.com/akkrat/libetpan
 
 ```
 mkdir ~/libetpan
 cd ~/libetpan
-git clone --depth=1 https://github.com/dinhviethoa/libetpan
+git clone --depth=1 https://github.com/akkrat/libetpan
 cd libetpan
 ./autogen.sh
 make >/dev/null
